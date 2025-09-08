@@ -1,6 +1,26 @@
-# DVMP
+# Datenverarbeitung in der Medienproduktion: Terrain Generator
 
-BENÖTIGTE SOFTWARE: 
+Dieses Repository enthält die Endabgabe für das Modul Datenverabeitung in der Medienproduktion.
+
+Hierbei sollten wir zu bestimmte Überkategorien mit den Geometry Nodes in Blender und dem Blender Scripting ein Projekt ausarbeiten.
+
+Wir entscheiden uns dabei für einen Terrain Generator, der auf Basis eines farblich markierten Pixel-Rasters ein Environment in Blender generieren soll.
+
+## Beispiel Pattern
+
+  <img src="./Pattern\pattern_20x20.png" width="300px" />
+
+Jeder markierte Pixel soll später für bestimmte Umgebungsobjekte in der Blender Szene geneiert werden.
+
+## Beispielergebnis
+
+<img src="./E:\Projekte\HFU\DVMP\Pattern\HFU_render.png" />
+
+## Zugang zur Abschlusspräsentation
+
+📄 [Präsentation ansehen](./Abschlusspräsentation.pdf)
+
+## BENÖTIGTE SOFTWARE: 
     - Blender >3.0
     - Python
     - cv2 (opencv-python)
@@ -9,7 +29,7 @@ BENÖTIGTE SOFTWARE:
 Falls gewünscht kann ein eigenes Pattern erstellt werden. Es sind jedoch Test Pattern im Ordner zu finden: 
     - \DVMP\Pattern
 
-EIGENE PATTERN ERSTELLEN:
+## EIGENE PATTERN ERSTELLEN:
     1. Diese 4 Farben nutzen
         Gras: green = (0, 255, 0)
         Busch: darkGreen = (53, 101, 20)
@@ -21,7 +41,7 @@ EIGENE PATTERN ERSTELLEN:
     3. Mit einem Tool deiner Wahl ein Pattern erstellen als PNG abspeichern und in den Pattern Ordner legen.
 
 
-PROGRAMM STARTEN:
+## PROGRAMM STARTEN:
     1. Blender starten
 
     2. Programmcode öffnen
