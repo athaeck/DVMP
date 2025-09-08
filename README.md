@@ -14,7 +14,7 @@ Jeder markierte Pixel soll später für bestimmte Umgebungsobjekte in der Blende
 
 ## Beispielergebnis
 
-<img src="./E:\Projekte\HFU\DVMP\Pattern\HFU_render.png" />
+<img src="./Pattern\HFU_render.png" />
 
 ## Zugang zur Abschlusspräsentation
 
